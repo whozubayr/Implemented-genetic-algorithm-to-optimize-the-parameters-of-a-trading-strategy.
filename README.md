@@ -1,2 +1,3 @@
-# Implementing-a-genetic-algorithm-to-optimize-the-parameters-of-a-trading-strategy.-
-The algorithm generates a population of chromosomes, which are sets of randomly initialized parameters for the trading strategy. It then evaluates the fitness of each chromosome by using machine learning to make trades with the parameters encoded in the chromosome and calculates the profitability of the trades.
+ Implementing a genetic algorithm to optimize the parameters of a trading strategy. The algorithm generates a population of chromosomes, which are sets of randomly initialized parameters for the trading strategy. It then evaluates the fitness of each chromosome by using machine learning to make trades with the parameters encoded in the chromosome and calculates the profitability of the trades.
+
+The fittest chromosomes are then selected and bred to produce a new population of chromosomes. The process is repeated for a number of iterations, with a probability of mutation being applied to each chromosome at each iteration. At the end, the fittest chromosome is returned as the solution.
